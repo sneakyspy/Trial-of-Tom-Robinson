@@ -92,7 +92,8 @@
                 "Text": "This is probably the only way he could have avoided unjust persicution"
             },
             {
-                "Action": "Win"
+                "Action": "end",
+                "Text": "You Won"
             }
           ]
         }

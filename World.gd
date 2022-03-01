@@ -3,7 +3,7 @@ extends Node
 onready var input = $Interface/cont/VBoxContainer/ScrollContainer/Input
 onready var label = $Interface/Text_Display
 var BUTTON = preload("res://Button.tscn")
-var peeps_unlocked = ["Tom", "Bob", "Heck"]
+var peeps_unlocked = ["Tom", "Bob", "Heck", "Court"]
 var oldind = 0
 var old = null
 var x = 0
@@ -22,11 +22,12 @@ onready var Burris = parse_json_file("res://Files/Burris.tres")
 onready var Heck = parse_json_file("res://Files/Heck Tate.tres")
 onready var Tom = parse_json_file("res://Files/Tom Robinson.tres")
 onready var Mayella = parse_json_file("res://Files/Mayella.tres")
+onready var Court = parse_json_file("res://Files/Court.tres")
 onready var file = Tom
 onready var index = 0
 onready var current = file
 var questions = 2
-var people = ["You", "Tom", "Bob", "Heck", "Mayella",  "Burris"]
+var people = ["You", "Tom", "Bob", "Heck", "Mayella",  "Burris", "Judge Taylor"]
 var knows = []
 var running = true
 
@@ -59,6 +60,11 @@ func _process(_delta: float) -> void:
 			if current[index + 1]["Action"] in people:
 				index += 1
 				label.set_text("[" + current[index]["Action"] + "]" + " " + current[index]["Text"])
+			elif current[index + 1]["Action"] == "end":
+				label.set_text(current[index + 1]["Text"])
+				running = false
+				file = null
+				current = null
 			elif "Q" in current[index + 1]["Action"]:
 				index += 1
 				if old == null:
@@ -109,11 +115,6 @@ func _process(_delta: float) -> void:
 					current = file
 					index += 1
 					label.set_text("[" + current[index]["Action"] + "]" + " " + current[index]["Text"])
-			elif "Win" in current[index]["Action"]:
-				running = false
-				file = null
-				current = null
-				label.set_text("You Won!")
 			else:
 				for x in range(index + 1, len(current)):
 					if "req" in current[x] && current[x]["req"] in knows:

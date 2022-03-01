@@ -1,0 +1,5 @@
+[
+  {"Action": "Judge Taylor", "Text": "The court reviewed all of information Atticus has provided"},
+  {"Action": "Judge Taylor", "Text": "The jury finds the defendant, GUILTY of all charges"},
+  {"Action": "end", "Text": "You Lost"}
+]
