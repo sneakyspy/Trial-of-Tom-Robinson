@@ -77,6 +77,10 @@
     "Text": "I don't recomend telling Bob Ewell that You spoke to me"
   },
   {
+    "Action": "Unlock",
+    "Text": "Court"
+  },
+  {
     "req": [
       "Mayella was beaten on the right"
     ],
