@@ -1,0 +1,129 @@
+[
+  {
+    "Action": "Tom",
+    "Text": "Hello Atticus"
+  },
+  {
+    "Action": "Tom",
+    "Text": "You probably heard what Mayella said, the whole town knows"
+  },
+  {
+    "Action": "Q",
+    "Text": [
+      [
+        {
+          "Action": "You",
+          "Text": "I have not"
+        },
+        {
+          "Action": "Tom",
+          "Text": "Well Thats a first"
+        },
+        {
+          "Action": "Tom",
+          "Text": "The berif version is that Mayella Ewell accused me of raping her last night"
+        },
+        {
+          "Action": "Tom",
+          "Text": "Thats not something that I could or would have been able to do"
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "Ouch, accused of rape?"
+        },
+        {
+          "Action": "Tom",
+          "Text": "Yes, I could nor would have done that"
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "The whole town knows"
+        },
+        {
+          "Action": "Tom",
+          "Text": "Thats True, I hope I make it out of this one"
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "The whole town knows ... Except for me apparently"
+        },
+        {
+          "Action": "Tom",
+          "Text": "The berif version is that Mayella Ewell accused me of raping her last night"
+        },
+        {
+          "Action": "Tom",
+          "Text": "Thats not something that I could or would have been able to do"
+        }
+      ]
+    ]
+  },
+  {
+    "Action": "You",
+    "Text": "How can I help"
+  },
+  {
+    "Action": "Tom",
+    "Text": "You could ask around, Heck Tate and Bob Ewell were both there at some point"
+  },
+  {
+    "Action": "Tom",
+    "Text": "I don't recomend telling Bob Ewell that You spoke to me"
+  },
+  {
+    "req": [
+      "Mayella was beaten on the right"
+    ],
+    "Text": [
+      {
+        "Action": "Tom",
+        "Text": "So you spoke to Heck Tate ... what did he tell you"
+      },
+      {
+        "Action": "You",
+        "Text": "She was beaten on the right side of her face, but when heck tate was called, she was already recovering"
+      },
+      {
+        "Action": "Tom",
+        "Text": "If she was beaten on the right side of her face, then I could not have done it"
+      },
+      {
+        "Action": "Tom",
+        "Text": "My Left arm is dead, went through a cotton gin at the age of 12"
+      }
+    ]
+  },
+  {
+    "req": [
+      "Tom was framed"
+    ],
+    "Text": [
+      {
+        "Action": "Tom",
+        "Text": "Mayella was tying to make it seem as though it was the first time you came"
+      },
+      {
+        "Action": "Tom",
+        "Text": "Thats probably what happened after I left"
+      },
+      {
+        "Action": "Tom",
+        "Text": "Bob was mad that Mayella for wanting to kiss me"
+      },
+      {
+        "Action": "information",
+        "Text": "Mayella liked Tom"
+      }
+    ]
+  },
+  {
+    "Action": "Tom",
+    "Text": "Goodby Atticus"
+  }
+]

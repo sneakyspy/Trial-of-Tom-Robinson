@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://FlatUI/kenneyUI-blue.tres" type="Theme" id=1]
+
+[node name="Button" type="Button"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -87.5
+margin_top = -21.1255
+margin_right = 87.5
+margin_bottom = 21.1255
+size_flags_horizontal = 3
+theme = ExtResource( 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+text = "Sample Text"
+__meta__ = {
+"_edit_use_anchors_": false
+}

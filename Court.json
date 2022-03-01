@@ -1,0 +1,19 @@
+[
+  {"Action": "Judge", "Text": "Hello everyone, I welcome you all to the trial of Robinson vs Ewell"},
+  {"Action": "Atticus", "Text": "Judge if I may, I am here to deffend Tom Robinson, A man who was wrongly accused or rape"},
+  {"Action": "Gilmer", "Text": "Thats a bold statement, What do you have to support it"},
+  {"Action": "Atticus", "Text": "We'll see, just call up your witnesses"},
+  {"Action": "Judge", "Text": "Robert E. Lee Ewell please come up to the chair"},
+  {"Action": "Bob", "Text": "Hello, Judge"},
+  {"Action": "Judge", "Text": "Mr. Ewell, What exactly happened when your daughter was raped"},
+  {"Action": "Bob", "Text": "Well, I left to get some kindleing for Mayella to Chop for me"},
+  {"Action": "Bob", "Text": "I was almost back when I heard a scream coming from the house, so I come running"},
+  {"Action": "Bob", "Text": "And I see that ###### on top of my daughter"},
+  {"Action": "Bob", "Text": "I ran for the door, but he had already gotten away"},
+  {"Action": "Bob", "Text": "Then I started yelling for her to tell me who done it"},
+  {"Action": "Judge", "Text": "Deffence, do you have any questions for out wittness"},
+  {"Action": "Atticus", "Text": "Sertainly"},
+  [
+    {"Action": "req", "Text": [Framed]},
+  ]
+]

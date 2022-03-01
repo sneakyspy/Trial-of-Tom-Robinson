@@ -1,0 +1,169 @@
+[
+  {
+    "Action": "Heck",
+    "Text": "Hello Atticus"
+  },
+  {
+    "Action": "You",
+    "Text": "Hello Heck"
+  },
+  {
+    "Action": "You",
+    "Text": "I was Just Talking to Tom Robinson about what happened"
+  },
+  {
+    "Action": "Heck",
+    "Text": "And"
+  },
+  {
+    "Action": "You",
+    "Text": "I don't think Tom did it"
+  },
+  {
+    "Action": "Heck",
+    "Text": "Really"
+  },
+  {
+    "Action": "You",
+    "Text": "I just need you to tell me something"
+  },
+  {
+    "Action": "Q",
+    "Text": [
+      [
+        {
+          "Action": "You",
+          "Text": "What were Mayella's injuries"
+        },
+        {
+          "Action": "Heck",
+          "Text": "She was beaten up on the right side of her face, and nail marks all around her neck"
+        },
+        {
+          "Action": "Heck",
+          "Text": "It must have been a hard beating, but she seemed ok when I got there"
+        },
+        {
+          "Action": "Heck",
+          "Text": "Maby you should talk to her"
+        },
+        {
+          "Action": "information",
+          "Text": "Mayella was beaten on the right"
+        },
+        {
+          "Action": "Unlock",
+          "Text": "Mayella"
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "Was anything out of the ordinary in the house"
+        },
+        {
+          "Action": "Heck",
+          "Text": "The house looked like their had been a fight"
+        },
+        {
+          "Action": "Heck",
+          "Text": "There was a chair knocked down and the table had been pushed to the side"
+        },
+        {
+          "Action": "information",
+          "Text": "There was a fight"
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "Was anyone else there"
+        },
+        {
+          "Action": "Heck",
+          "Text": "No, It was strangely quiet when Bob and Mayella quieted down, like the house was holding it's breath"
+        },
+        {
+          "Action": "You",
+          "Text": "Does anyone else live with Bob and Mayella"
+        },
+        {
+          "Action": "Heck",
+          "Text": "Yes, they eight children in total, although if you want to talk to any of them Burris is the most likely to tell you something usefull"
+        },
+        {
+          "Action": "information",
+          "Text": "The children were gone"
+        },
+        {
+          "Action": "Unlock",
+          "Text": "Burris"
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "How was Mayella when you got there"
+        },
+        {
+          "Action": "Heck",
+          "Text": "She looked like she was very spooked, but she was recovering by the time I got there"
+        },
+        {
+          "Action": "You",
+          "Text": "How far away were you"
+        },
+        {
+          "Action": "Heck",
+          "Text": "About a minuit or two, I was finishing up something nearby"
+        },
+        {
+          "Action": "information",
+          "Text": "She was recovering already"
+        }
+      ],
+      [
+        {
+          "req": [
+            "Bob is left Handed",
+            "Toms Left Arm is Dead"
+          ],
+          "Text": [
+            {
+              "Action": "You",
+              "Text": "Did you know Bob Ewell is left handed"
+            },
+            {
+              "Action": "Heck",
+              "Text": "I did not"
+            },
+            {
+              "Action": "You",
+              "Text": "If what you said is true, It could have been Bob who beat  up Mayella"
+            },
+            {
+              "Action": "Heck",
+              "Text": "If you had a lead you might even be able to convict him"
+            },
+            {
+              "Action": "You",
+              "Text": "And we know that Tom's left Arm is dead, went through a cotton gin at the age of 12"
+            },
+            {
+              "Action": "Heck",
+              "Text": "Well if you succeed, I'l be there to arrest Bob"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "Action": "You",
+    "Text": "Thank you Mr. Tate, do you have any advice"
+  },
+  {
+    "Action": "Heck",
+    "Text": "Don't tell the Ewells that you are defending Tom"
+  }
+]

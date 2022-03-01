@@ -1,0 +1,159 @@
+[
+  {
+    "Action": "You",
+    "Text": "Hello Miss Mayella"
+  },
+  {
+    "Action": "Mayella",
+    "Text": "What do you want"
+  },
+  {
+    "Action": "You",
+    "Text": "I need to ask you a few questions about what happened with you and Tom Robinson"
+  },
+  {
+    "Action": "Mayella",
+    "Text": "Alright, so he came in the house wanting work"
+  },
+  {
+    "Action": "You",
+    "Text": "Save that for the testimony, I have a few questions spesifically"
+  },
+  {
+    "Action": "Mayella",
+    "Text": "Ask away, and then go awat as well"
+  },
+  {
+    "Action": "Q",
+    "Text": [
+      [
+        {
+          "Action": "You",
+          "Text": "Where was everyone when this happened"
+        },
+        {
+          "Action": "Mayella",
+          "Text": "The children were all out hunting with Pa"
+        },
+        {
+          "req": [
+            "The children were out for ice cream"
+          ],
+          "Text": [
+            {
+              "Action": "You",
+              "Text": "Really, I heard that you had give the chilren Ice cream"
+            },
+            {
+              "Action": "Mayella",
+              "Text": "By who"
+            },
+            {
+              "Action": "You",
+              "Text": "By your brother Burris"
+            },
+            {
+              "Action": "Mayella",
+              "Text": "Then why are you asking me, They remember best"
+            },
+            {
+              "Action": "information",
+              "Text": "Mayella wanted the children out"
+            },
+            {
+              "Action": "information",
+              "Text": "Mayella is lying"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "How long did it take for your father to Call Mr. Tate"
+        },
+        {
+          "Action": "Mayella",
+          "Text": "He called immediately"
+        },
+        {
+          "req": [
+            "She was recovering already"
+          ],
+          "Text": [
+            {
+              "Action": "You",
+              "Text": "But I heard from Mr. Tate that you were already recovering when he got there"
+            },
+            {
+              "Action": "Mayella",
+              "Text": "And, he must have been far away"
+            },
+            {
+              "Action": "You",
+              "Text": "Actually, he was there one or two minuites after your father called"
+            },
+            {
+              "Action": "information",
+              "Text": "Mayella is Lying"
+            },
+            {
+              "Action": "information",
+              "Text": "Lying about the time"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "Had Tom ever come over to the house"
+        },
+        {
+          "Action": "Mayella",
+          "Text": "No, it was the first time"
+        },
+        {
+          "Action": "Mayellla",
+          "Text": "He just came in and said he wanted work"
+        },
+        {
+          "req": [
+            "Tom frequently visited"
+          ],
+          "Text": 
+          [
+            {
+              "Action": "You",
+              "Text": "Really, but I heard from Burris that Tom frequently visited the house"
+            },
+            {
+              "Action": "Mayella",
+              "Text": "Are you seriously going to trust little Burris over me"
+            },
+            {
+              "Action": "You",
+              "Text": "Only if you are consistant"
+            },
+            {
+              "Action": "information",
+              "Text": "Mayella is lying"
+            },
+            {
+              "Action": "information",
+              "Text": "Tom was framed"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "Action": "You",
+    "Text": "Well, Thats enough"
+  },
+  {
+    "Action": "Mayella",
+    "Text": "Then leave, if you don't want to belive me, so be it"
+  }
+]

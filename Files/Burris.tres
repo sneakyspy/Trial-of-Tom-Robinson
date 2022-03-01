@@ -1,0 +1,103 @@
+[
+  {
+    "Action": "You",
+    "Text": "Hello, so you are Burris I assume"
+  },
+  {
+    "Action": "Burris",
+    "Text": "Yes, what does that mean to you"
+  },
+  {
+    "Action": "You",
+    "Text": "I need to ask you about that day your sister got hurt"
+  },
+  {
+    "Action": "Burris",
+    "Text": "Sis get's hurt a lot, but I know what you mean"
+  },
+  {
+    "Action": "Q",
+    "Text": [
+      [
+        {
+          "Action": "You",
+          "Text": "why were you and your siblings out of the house"
+        },
+        {
+          "Action": "Burris",
+          "Text": "Sis gave us money for Ice cream"
+        },
+        {
+          "Action": "Burris",
+          "Text": "Must have taken her a long time to save up that many nickles"
+        },
+        {
+          "Action": "You",
+          "Text": "So she wanted everyone out of the house"
+        },
+        {
+          "Action": "Burris",
+          "Text": "If you want to think about it that way"
+        },
+        {
+          "Action": "information",
+          "Text": "The children were out for ice cream"
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "Did Tom often visit your house"
+        },
+        {
+          "Action": "Burris",
+          "Text": "Sis always had something for him to do"
+        },
+        {
+          "Action": "Burris",
+          "Text": "I suspect he pities her, and she always liked his company"
+        },
+        {
+          "Action": "information",
+          "Text": "Tom frequently visited"
+        },
+      ],
+      [
+        {
+          "req":
+          [
+            "Tom frequently visited",
+            "Toms left arm is dead"
+          ],
+          "Text":
+          [
+            {
+              "Action": "You",
+              "Text": "Do you think Tom could have caused Mayella's injuries"
+            },
+            {
+              "Action": "Burris",
+              "Text": "Probably, He was the one there according to Pa"
+            },
+            {
+              "Action": "You",
+              "Text": "But her injuries are on the right side of her face, so Tom would have had to beat her with his left"
+            },
+            {
+              "Action": "Burris",
+              "Text": "Then it could be Pa, he is always beating Mayella he might have found out about sis was inviting a negro to our house"
+            },
+            {
+              "Action": "information",
+              "Text": "Bob beat Mayella"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "Action": "Burris",
+    "Text": "Goodbye"
+  }
+]

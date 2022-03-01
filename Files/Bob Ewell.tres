@@ -1,0 +1,147 @@
+[
+  {
+    "Action": "You",
+    "Text": "Hello Mr. Ewell"
+  },
+  {
+    "Action": "Bob",
+    "Text": "yes"
+  },
+  {
+    "Action": "You",
+    "Text": "May I ask you a few questions about what happened to Mayella, everyone is worried for her"
+  },
+  {
+    "Action": "Bob",
+    "Text": "sure"
+  },
+  {
+    "Action": "Q",
+    "Text": [
+      [
+        {
+          "Action": "You",
+          "Text": "How serious were her injuries"
+        },
+        {
+          "Action": "Bob",
+          "Text": "Not too bad, she is used to it"
+        },
+        {
+          "Action": "You",
+          "Text": "Why is that"
+        },
+        {
+          "Action": "Bob",
+          "Text": "Well every child needs *burp* a good beating every now and again"
+        },
+        {
+          "Action": "You",
+          "Text": "Are you alright"
+        },
+        {
+          "Action": "Bob",
+          "Text": "Just a little tipsy, thats all"
+        },
+        {
+          "Action": "information",
+          "Text": "Bob beats Mayella"
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "How do you know it was Tom"
+        },
+        {
+          "Action": "Bob",
+          "Text": "I saw him, what more do you need"
+        },
+        {
+          "req": [
+            "Mayella was beaten on the right",
+            "Tom's left arm is dead"
+          ],
+          "Text": [
+            {
+              "Action": "You",
+              "Text": "It could not have been Tom"
+            },
+            {
+              "Action": "You",
+              "Text": "Mayella was beaten on the right side, and Toms left arm is dead"
+            },
+            {
+              "Action": "Dr. Raymond",
+              "Text": "I never thought that Bob was crazy enough to attack your children at night"
+            },
+            {
+                "Action": "You",
+                "Text": "At least we had arthur to protect them"
+            },
+            {
+                "Action": "You",
+                "Text": "Now Mayella is going to live with Arthur, after confessing what happened"
+            },
+            {
+                "Action": "You",
+                "Text": "The jurry would never support Tom"
+            },
+            {
+                "Action": "You",
+                "Text": "This is probably the only way he could have avoided unjust persicution"
+            },
+            {
+                "Action": "Win"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "Action": "You",
+          "Text": "Can I speak with Mayella"
+        },
+        {
+          "Action": "Bob",
+          "Text": "She is always at the shack these days"
+        },
+        {
+          "Action": "Unlock",
+          "Text": "Mayella"
+        }
+      ],
+      [
+        {
+          "req": ["She was recovering already"],
+          "Text": [
+            {
+              "Action": "You",
+              "Text": "Why did it take you so long to call Mr. Tate"
+            },
+            {
+              "Action": "Bob",
+              "Text": "I did"
+            },
+            {
+              "Action": "You",
+              "Text": "It took you a while to call"
+            },
+            {
+              "Action": "Bob",
+              "Text": "I was buisy"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "Action": "You",
+    "Text": "Thats enough, I hope not to bother you"
+  },
+  {
+    "Action": "Bob",
+    "Text": "Its too late for that"
+  }
+]
