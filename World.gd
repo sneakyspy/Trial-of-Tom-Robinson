@@ -27,7 +27,7 @@ onready var file = Tom
 onready var index = 0
 onready var current = file
 var questions = 2
-var people = ["You", "Tom", "Bob", "Heck", "Mayella",  "Burris", "Judge Taylor", "Court"]
+var people = ["You", "Tom", "Bob", "Heck", "Mayella",  "Burris", "Judge Taylor"]
 var knows = []
 var running = true
 
